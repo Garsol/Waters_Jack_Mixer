@@ -1,0 +1,45 @@
+.hidden {
+    display: none;
+}
+
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(12,165px);
+}
+
+#box1 {
+    grid-column: 1/4;
+    background-color: darkslategray;
+}
+
+#box2 {
+    grid-column: 4/10;
+    background-color: black;
+    color: bisque;
+}
+
+#box3 {
+    grid-column: 10/-1;
+    background-color: darkslategray;
+}
+
+#box4 {
+    grid-column: 1/-1;
+    background-color: grey;
+}
+
+#album img{
+    height: 150px;
+    float: left;
+}
+
+.drop-zone {
+	width: 25%;
+    height: 99%;
+	border: thin dashed white;
+	float: left;
+	position: relative;
+}
+
